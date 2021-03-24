@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFB42A</color>
+    <color name="colorPrimaryDark">#FFB74D</color>
+    <color name="colorNavigation">#FFE0B2</color>
+    <color name="colorAccent">#F5DEB3</color>
+    <color name="colorCard">#FEF8EE</color>
+    <color name="colorGrayFont">#B9B9B9</color>
+    <color name="colorGrayBackground">#FAFAFA</color>
+    <color name="colorLogoBackground">#FFF7E9</color>
+    <color name="colorContentStatic">#643923</color>
+    <color name="colorSecondaryText">#BC7F5E</color>
+    <color name="colorMainText">#8E644D</color>
+    <color name="colorStroke">#D7D7D7</color>
+    <color name="colorItemBackground">#E6FDF8EF</color>
+    <color name="colorNavigationClicked">#EF6C00</color>
+    <color name="colorDetailLine">#C1ADA2</color>
+    <color name="colorDetailBackground">#FFF3E0</color>
+    <color name="colorCancelButton">#DD6161</color>
+    <color name="colorError">#FEDFDF</color>
+    <color name="colorMangement">#287BDD</color>
+    <color name="colorPhoneNumber">#83492D</color>
+    <color name="colorCardBackGround">#FDF8EF</color>
+</resources>

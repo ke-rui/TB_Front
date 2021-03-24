@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_corner">
+        <com.ryane.banner.AdPlayBanner
+            android:id="@+id/place_banner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </LinearLayout>
+
+    <!--通知滚动条
+    <com.sunfusheng.marqueeview.MarqueeView
+        android:id="@+id/marqueeView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:mvAnimDuration="1000"
+        app:mvDirection="bottom_to_top"
+        app:mvInterval="3000"
+        app:mvTextColor="@color/black"
+        app:mvTextSize="14sp"
+        app:mvSingleLine="true"
+        android:background="?attr/colorPrimary"/>
+        -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/home_recycler_view"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="65dp"/>
+    </LinearLayout>
+</LinearLayout>

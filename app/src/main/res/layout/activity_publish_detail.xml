@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:label="@string/title_activity_publish_detail"
+    android:background="@color/colorLogoBackground"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.publish.PublishDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Published_detail"
+                android:text="@string/published_hint"
+                android:textColor="@color/colorContentStatic"
+                android:textSize="32sp">
+            </TextView>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_title"
+                android:hint="@string/title"
+                app:met_textColor="@color/colorContentStatic"
+                app:met_textColorHint="@color/colorContentStatic"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="请填写需求的标题" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_name"
+                android:hint="@string/name"
+                app:met_textColor="@color/colorContentStatic"
+                app:met_textColorHint="@color/colorContentStatic"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="请填写您的姓名" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/time"
+                app:met_textColor="@color/colorContentStatic"
+                app:met_textColorHint="@color/colorContentStatic"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="请填写您要求服务的时间" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/telephone"
+                app:met_textColor="@color/colorContentStatic"
+                app:met_textColorHint="@color/colorContentStatic"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="请填写您的手机号" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/address"
+                app:met_textColor="@color/colorContentStatic"
+                app:met_textColorHint="@color/colorContentStatic"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelText="请填写您的地址供志愿者上门服务" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/type_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorContentStatic"
+                android:textColorHint="@color/colorContentStatic"
+                android:hint="@string/type"
+                android:textSize="18dp"
+                app:ms_background_color="@color/colorLogoBackground"
+                app:ms_padding_left="0dp"
+                />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/description"
+                app:met_textColor="@color/colorContentStatic"
+                app:met_textColorHint="@color/colorContentStatic"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="请描述你需求的详细内容" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/publish_finish_btn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/btn_accept"
+                android:text="@string/publish_confirm"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
